@@ -119,7 +119,6 @@ int main(){
 	
 
 	for(i=0;i<=packet_count;i++){
-
 		sleep(0.5);
 		send_raw_ip_packet(ip_header);
 	}
